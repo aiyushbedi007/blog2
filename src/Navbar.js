@@ -6,7 +6,12 @@ const Navbar = () => {
         <h1 className='title'>The Dojo Blog</h1>
         <div className='btns'>
             <button className='homeButton btn'>Home</button>
-            <button className='blogButton btn'>New Blog</button>
+            <a href='/create' className='btn' style={{
+              marginLeft: '20px',
+              backgroundColor: 'slategray',
+              color: '#fff',
+              borderRadius: '10px',
+            }}>New Blog</a>
         </div>
       </div>
   )

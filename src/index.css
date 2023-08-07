@@ -53,3 +53,9 @@ code {
   text-align: left;
   margin-top: 50px;
 }
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
